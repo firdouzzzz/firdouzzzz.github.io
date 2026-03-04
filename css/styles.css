@@ -1,0 +1,60 @@
+*{
+	box-sizing: border-box;
+}
+
+.jersey-10-regular {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+	font-family: "Jersey 10", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+  	font-size: 1.5rem;
+	margin: 0;
+	background: #f4f7fb;
+	color: #253238;
+}
+
+header{
+	background: linear-gradient(120deg, #04AA6D, #058457);
+	font-family: "Jersey 10", sans-serif;
+ 	font-weight: 400;
+	font-style: normal;
+ 	font-size: 3rem;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+main{
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 40px 20px; 
+}
+
+section {
+	background: #fff;
+	border-radius: 12px;
+	padding: 24px;
+	margin-bottom: 24px;
+	box-shadow: 0 10px 25px rgba(15,13,42, 0.08);
+}
+
+section h2{
+	margin-top: 0;
+	font-family: "Jersey 10", sans-serif;
+ 	font-weight: 400;
+	font-style: normal;
+ 	font-size: 3rem;
+	color: #04AA6D;
+}
+
+footer{
+	padding: 24px;
+	text-align: center;
+	background: #e8edf4;
+	font-size: 0.9rem;
+}
