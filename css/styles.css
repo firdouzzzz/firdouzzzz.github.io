@@ -77,3 +77,15 @@ footer{
   color:#04AA6D; 
   margin-right:12px;
 }
+
+img.responsive {
+  max-width:25%; 
+  height:auto; 
+  border-radius:16px;
+  align-items: center;
+}
+
+div.image{
+	display: flex;
+	justify-content: center;
+}
