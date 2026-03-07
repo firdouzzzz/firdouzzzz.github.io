@@ -1,32 +1,35 @@
-*{
-	box-sizing: border-box;
+html{
+	background-color:#DED8BD;
 }
 
-.jersey-10-regular {
-  font-family: "Jersey 10", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+nav a:link {
+	color: #DED8BD;
+}
+
+nav a:visited{
+	color: #BFDBDA;
 }
 
 body{
-	font-family: "Jersey 10", sans-serif;
   	font-weight: 400;
   	font-style: normal;
   	font-size: 1.5rem;
 	margin: 0;
-	background: #f4f7fb;
 	color: #253238;
 }
 
 header{
-	background: linear-gradient(120deg, #04AA6D, #058457);
-	font-family: "Jersey 10", sans-serif;
+	background: linear-gradient(120deg, #4C635B, #4A592F, #826324);
  	font-weight: 400;
 	font-style: normal;
- 	font-size: 3rem;
+ 	font-size: 1.5rem;
 	color: #fff;
 	padding: 20px;
 	text-align: center;
+}
+
+header p {
+	color: #DED8BD;
 }
 
 main{
@@ -35,46 +38,28 @@ main{
 	padding: 40px 20px; 
 }
 
-section {
-	background: #fff;
-	border-radius: 12px;
-	padding: 24px;
-	margin-bottom: 24px;
-	box-shadow: 0 10px 25px rgba(15,13,42, 0.08);
-}
-
-section h2{
-	margin-top: 0;
-	font-family: "Jersey 10", sans-serif;
- 	font-weight: 400;
-	font-style: normal;
- 	font-size: 3rem;
-	color: #04AA6D;
-}
-
 footer{
+	color:#4A592F;
 	padding: 24px;
-	text-align: center;
-	background: #e8edf4;
-	font-size: 0.9rem;
+	text-align: left;
+	font-size: 1.2rem;
 }
 
-.features {
+.about {
   list-style: none; 
   padding: 0; 
   margin: 0; 
   display: grid; 
   gap: 12px;
 }
-.features li {
-  padding:16px 20px; 
-  background:#fff; 
-  border-radius:12px; 
-  box-shadow:0 10px 25px rgba(15, 23, 42, 0.08);
+.about li {
+  padding:16px 20px;
+  color:#826324;
+  border-radius:12px;
 }
-.features li::before {
-  content:"✧ "; 
-  color:#04AA6D; 
+.about li::before {
+  content:"✦ "; 
+  color:#4C635B; 
   margin-right:12px;
 }
 
@@ -88,4 +73,56 @@ img.responsive {
 div.image{
 	display: flex;
 	justify-content: center;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #826324;
+}
+
+img.scale {
+	max-width: 100%;
+	border-radius: 16px;
+	align-items: center;
+}
+
+div.righthalf{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+}
+div.leftthalf{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.lefthalf{
+	flex: 1;
+	padding: 1rem;
+}
+
+.righthalf{
+	flex: 1;
+	padding: 3rem;
+}
+
+.container{
+	display: flex;
+}
+
+section p{
+	color:#826324;
+}
+
+section h1{
+	color:#2F453E;
+}
+
+a:link{
+	color:#4A592F;
+}
+
+a:visited{
+	color:#4C635B;
 }
