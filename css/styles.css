@@ -113,7 +113,7 @@ div.image{
 	flex-direction: column;
 	justify-content: center;
 	align-items: left;
-	padding: 2rem;
+	padding: 0;
 	width:40%;
 }
 
