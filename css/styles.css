@@ -115,6 +115,7 @@ div.leftthalf{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	padding: 24px;
 }
 
 section p{
