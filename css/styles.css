@@ -113,6 +113,8 @@ div.leftthalf{
 
 .container{
 	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 section p{
