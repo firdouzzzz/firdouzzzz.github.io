@@ -105,7 +105,6 @@ div.righthalf{
 }
 div.leftthalf{
 	display:flex;
-	flex-direction: column;
 	justify-content: center;
 }
 
