@@ -96,28 +96,29 @@ img.scale {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	margin: 1rem;
-}
-div.righthalf{
-	display:flex;
-	flex-direction: column;
-	justify-content: center;
-}
-div.leftthalf{
-	display:flex;
-	flex-direction: row;
-	justify-content: center;
+	justify-content: space-evenly;
 }
 
 .lefthalf{
 	flex: 1;
 	padding: 1rem;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .righthalf{
 	flex: 1;
-	padding: 3rem;
+	padding: 1rem;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	width:40%;
 }
+
+
 section p{
 	color:#826324;
 }
