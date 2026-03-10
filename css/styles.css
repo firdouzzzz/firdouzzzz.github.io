@@ -99,12 +99,10 @@ img.scale {
 }
 
 .lefthalf{
-	flex: 1;
 	padding: 1rem;
 }
 
 .righthalf{
-	flex: 1;
 	padding: 1rem;
 	display:flex;
 	flex-direction: column;
