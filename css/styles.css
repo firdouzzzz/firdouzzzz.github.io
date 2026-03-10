@@ -81,9 +81,20 @@ img.responsive {
   align-items: center;
 }
 
-div.image{
+.cats{
 	display: flex;
+	flex-wrap: nowrap;
 	justify-content: center;
+	align-items: center;
+	gap:10px;
+}
+
+.cats img{
+	border-radius: 16px;
+	max-width: 25%;
+	flex: 1 1 auto;
+	height: auto;
+	object-fit: cover;
 }
 
 .container{
