@@ -75,6 +75,8 @@ a:hover{
 	padding-top: 10px;
 	margin: 0.5rem;
 	row-gap: 15px;
+	text-justify: center;
+	text-align: center;
 }
 
 .image{
