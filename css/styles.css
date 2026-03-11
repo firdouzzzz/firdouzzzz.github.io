@@ -143,6 +143,14 @@ img.responsive {
 
 .text h1{
 	color:#2F453E;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+h3{
+	padding-top: 0;
+	margin-top: 0;
+	color: #4C635B;
 }
 
 a:link{
@@ -160,4 +168,33 @@ a:hover{
 
 .format{
 	margin: 3rem;
+}
+
+
+@media (max-width: 600px) {
+
+
+    .lefthalf h1 {
+        padding-bottom: 0.5rem;
+    }
+
+    .lefthalf h2 {
+        text-align: center;
+        font-family: "Cooper-Hewitt";
+        font-size: large;
+        margin-top: 0;
+    }
+
+    .lefthalf img {
+        width: 390px;
+    }
+    
+    .righthalf {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        padding: 3rem 1rem 0rem;
+        flex-wrap: wrap;
+    }
+
 }
