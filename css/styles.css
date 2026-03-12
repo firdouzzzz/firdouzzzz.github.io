@@ -100,10 +100,10 @@ img.responsive {
 .container{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: left;
   flex-wrap: wrap;
-  padding: 0 0 0 0.5rem; 
-  margin: 3rem 0 0 0.5rem;
+  padding: 0 0 0 2rem; 
+  margin: 2rem 0 0 0;
 }
 
 .lefthalf{
@@ -124,7 +124,7 @@ img.responsive {
 	flex-direction: column;
 	justify-content: center;
 	align-items: left;
-	padding: 0;
+	padding: 0 0 0 2rem;
 	width:40%;
 }
 
@@ -134,7 +134,9 @@ img.responsive {
 }
 
 .righthalf h1{
+	margin-top: 0px;
 	color:#2F453E;
+	margin-bottom: 0px;
 }
 
 .text p{
@@ -186,7 +188,7 @@ a:hover{
     }
 
     .lefthalf img {
-        width: 390px;
+        width: 90%;
     }
     
     .righthalf {
@@ -197,4 +199,52 @@ a:hover{
         flex-wrap: wrap;
     }
 
+}
+
+.games img{
+	height:500px;
+	border-radius: 16px;
+}
+
+.games{
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	flex-wrap: nowrap;  
+  	padding: 0 0 0 0; 
+  	margin: 2rem 0 0 0;
+}
+
+.gamedesc{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: top;
+	margin: 0 2rem 0 2rem;
+}
+
+
+.gamedesc p{
+	color:#826324;
+}
+
+.gamedesc h1{
+	color:#2F453E;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	margin-top: 0px;
+}
+
+.gamesright img{
+	height:500px;
+	border-radius: 16px;
+}
+
+.gamesright{
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+	flex-wrap: nowrap;  
+  	padding: 0 0 0 0; 
+  	margin: 2rem 0 0 0;
 }
